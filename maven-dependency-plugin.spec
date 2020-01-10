@@ -1,6 +1,6 @@
 Name:           maven-dependency-plugin
 Version:        2.7
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Plugin to manipulate, copy and unpack local and remote artifacts
 
 Group:          Development/Libraries
@@ -85,6 +85,9 @@ sed -i \
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.7-3
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.7-2
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
